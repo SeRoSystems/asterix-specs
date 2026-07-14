@@ -437,13 +437,13 @@ compound 1
                                 29: 54 < TAO ≤ 56
                                 30: 56 < TAO ≤ 58
                                 31: TAO > 58
-                    spare 1
                 remark
                     Notes:
 
                         1. TAO is a one-to-one copy of Message Bits 68 to 72 of the ”Aircraft
                            Operational Status Message” (Register 65 16 ). The TAO is measured
                            along the longitudinal axis of the aircraft from the forward end.
+            spare 1
             -
     TNH "True North Heading"
         definition
