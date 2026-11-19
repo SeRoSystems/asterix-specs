@@ -1728,7 +1728,7 @@ items
                             unsigned quantity 1/2 "m"
             COV "XY Covariance Component"
                 element 16
-                    signed quantity 1/2 "m"
+                    signed quantity 1/2 "m" >= -16383 <= 16383
             APW "Estimated Accuracy Of Track Position (WGS-84)"
                 group
                     LAT "APW (Latitude Component)"
