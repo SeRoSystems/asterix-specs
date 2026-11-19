@@ -670,12 +670,12 @@ items
                 description
                     Range (PSR-SSR)
                 element 8
-                    signed quantity 1/2^8 "NM"
+                    signed quantity 1/2^8 "NM" >= -128/2^8 <= 128/2^8
             APD "Difference in Azimuth Between PSR and SSR Plot"
                 description
                     Azimuth (PSR-SSR)
                 element 8
-                    signed quantity 360/2^14 "°"
+                    signed quantity 360/2^14 "°" >= -360/2^7 <= 360/2^7
         remark
             Notes:
 
