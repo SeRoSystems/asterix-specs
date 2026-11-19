@@ -352,7 +352,7 @@ items
                     unsigned integer
             ON "Observation Number"
                 element 24
-                    unsigned integer
+                    unsigned integer <= 16777215
         remark
             Note 1: INCS sensors may achieve their operational requirements
             based upon different techniques and technologies. Some may utilise
