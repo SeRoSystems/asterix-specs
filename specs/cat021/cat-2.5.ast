@@ -826,7 +826,7 @@ items
             spare 6
             TAR "Track Angle Rate"
                 element 10
-                    signed quantity 1/2^5 "°/s" >= -16 <= 16
+                    signed quantity 1/2^5 "°/s" <= 16
         remark
             Notes:
 
