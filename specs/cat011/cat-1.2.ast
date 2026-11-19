@@ -327,40 +327,40 @@ items
         compound
             PSR "Age of The Last Primary Detection Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             SSR "Age of the Last Secondary Detection Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             MDA "Age of the Last Mode A Detection Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             MFL "Age of the Last Mode C Detection Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             MDS "Age of the Last Mode S Detection Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             ADS "Age of the Last ADS Report Used to Update the Track"
                 element 16
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 65535/2^2
             ADB "Age of the Last ADS-B Report Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             MD1 "Age of the Last Valid Mode 1 Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             MD2 "Age of the Last Mode 2 Used to Update the Track"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             LOP "Age of the Last Magentic Loop Detection"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             TRK "Actual Track Age Since First Occurrence"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
             MUL "Age of the Last Multilateration Detection"
                 element 8
-                    unsigned quantity 1/2^2 "s"
+                    unsigned quantity 1/2^2 "s" <= 255/2^2
         remark
             Note:
                 The ages are counted from Data Item I011/140, Time Of Track
