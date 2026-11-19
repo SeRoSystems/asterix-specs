@@ -166,10 +166,10 @@ items
         group
             RS "Rho Start"
                 element 16
-                    unsigned quantity 1/2^7 "NM" < 512
+                    unsigned quantity 1/2^7 "NM" <= 512
             RE "Rho End"
                 element 16
-                    unsigned quantity 1/2^7 "NM" < 512
+                    unsigned quantity 1/2^7 "NM" <= 512
             TS "Theta Start"
                 element 16
                     unsigned quantity 360/2^16 "°"
