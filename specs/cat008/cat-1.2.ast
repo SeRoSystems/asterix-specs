@@ -46,7 +46,7 @@ items
                         1: System Coordinates
             I "Intensity Level"
                 element 3
-                    unsigned integer
+                    unsigned integer >= 0 <= 7
             S "Shading Orientation with Respect to North"
                 element 3
                     table
@@ -262,7 +262,7 @@ items
             Total number of vectors, respectively contour points, constituting
             the total weather image, provided with the EOP message.
         element 16
-            unsigned integer
+            unsigned integer <= 65535
 
     SP "Special Purpose Field"
         definition
