@@ -30,7 +30,7 @@ items
         definition
             Identification of the User of the track data.
         element 16
-            unsigned integer
+            unsigned integer >= 0 <= 65535
         remark
             Notes:
 
@@ -140,7 +140,7 @@ items
         definition
             Identification of a track (track number)
         element 16
-            unsigned integer
+            unsigned integer >= 0 <= 65535
 
     050 "Composed Track Number"
         definition
@@ -149,10 +149,10 @@ items
             group
                 SUI "System Unit Identification"
                     element 8
-                        unsigned integer
+                        unsigned integer >= 0 <= 255
                 STN "System Track Number"
                     element 15
-                        unsigned integer
+                        unsigned integer >= 0 <= 32767
         remark
             Notes:
 
@@ -195,7 +195,7 @@ items
             The Plan Number is an integer value representing a unique reference to a
             Flight-plan record within a particular FPPS.
         element 16
-            unsigned integer
+            unsigned integer >= 0 <= 65535
 
     420 "Flight Category"
         definition
