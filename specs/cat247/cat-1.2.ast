@@ -44,7 +44,7 @@ items
             group
                 CAT "Category"
                     element 8
-                        unsigned integer
+                        unsigned integer >= 0 <= 255
                 MAIN "Main Version Number"
                     element 8
                         unsigned integer >= 0 <= 99
