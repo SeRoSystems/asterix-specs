@@ -399,7 +399,7 @@ items
         group
             GS "Ground Speed in Two's Complement Form Referenced to WGS84"
                 element 16
-                    signed quantity 1/2^14 "NM/s" >= 0 < 2
+                    signed quantity 1/2^14 "NM/s" >= -2 < 2
             TA "Track Angle"
                 element 16
                     unsigned quantity 360/2^16 "°"
