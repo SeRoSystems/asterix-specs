@@ -119,9 +119,9 @@ items
         definition
             Identification of a fusion track (single track number).
         group
-            spare 1
+            spare 4
             FTN "Fusion Track Number"
-                element 15
+                element 12
                     raw
 
     170 "Track Status"
