@@ -82,12 +82,12 @@ items
             group
                 STR "Start Range"
                     element 8
-                        unsigned integer
+                        unsigned integer > 0 < 256
                     remark
                         Adjust with scaling factor :math:`2^{-7+f}` from 'I008/100/F'
                 ENDR "End Range"
                     element 8
-                        unsigned integer
+                        unsigned integer > 0 < 256
                     remark
                         Adjust with scaling factor :math:`2^{-7+f}` from 'I008/100/F'
                 AZ "Azimuth"
@@ -105,17 +105,17 @@ items
             group
                 X "X-Component"
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
                 Y "Y-Component"
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
                 LENGTH "Length"
                     element 8
-                        unsigned integer
+                        unsigned integer > 0 < 256
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
         remark
@@ -133,22 +133,22 @@ items
             group
                 X1 "X1-Component"
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
                 Y1 "Y1-Component"
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
                 X2 "X2-Component"
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
                 Y2 "Y2-Component"
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
         remark
@@ -195,12 +195,12 @@ items
             group
                 X1 ""
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
                 Y1 ""
                     element 8
-                        signed integer
+                        signed integer > -128 < 128
                     remark
                         Adjust with scaling factor :math:`2^{-6+f}` from 'I008/100/F'
         remark
