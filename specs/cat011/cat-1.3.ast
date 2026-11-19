@@ -567,7 +567,7 @@ items
                     spare 3
                     NBR "IFPS Flight ID Number"
                         element 27
-                            raw
+                            unsigned integer >= 0 <= 99999999
             FLIGHTCAT "Flight Category"
                 group
                     GATOAT "Flight Type"
