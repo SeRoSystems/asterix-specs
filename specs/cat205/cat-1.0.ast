@@ -93,10 +93,10 @@ items
         group
             X "X-coordinate"
                 element 24
-                    signed quantity 1/2 "m" >= -4194300 <= 4194300
+                    signed quantity 1/2 "m"
             Y "Y-coordinate"
                 element 24
-                    signed quantity 1/2 "m" >= -4194300 <= 4194300
+                    signed quantity 1/2 "m"
         remark
             Note:
                 The Cartesian coordinates are relative to an agreed System Reference Point. The 
@@ -196,10 +196,10 @@ items
         group
             X "X-coordinate"
                 element 24
-                    signed quantity 1/2 "m" >= -4194300 <= 4194300
+                    signed quantity 1/2 "m"
             Y "Y-coordinate"
                 element 24
-                    signed quantity 1/2 "m" >= -4194300 <= 4194300
+                    signed quantity 1/2 "m"
         remark
             Note:
                 The Cartesian coordinates are relative to an agreed System Reference Point. The 
