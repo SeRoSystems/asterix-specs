@@ -101,7 +101,7 @@ items
             Height of the system reference point in Two’s Complement form.
             The height shall use mean sea level as the zero reference level.
         element 16
-            signed quantity 1/2^2 "m" > -8192 < 8192
+            signed quantity 1/2^2 "m" >= -8192 < 8192
         remark
             NOTE - I016/405 shall only be sent together with item I016/400
             “Position of the System Reference Point”.
@@ -122,7 +122,7 @@ items
                         signed quantity 180/2^31 "°" >= -180 < 180
                 ALT "Altitude"
                     element 16
-                        signed quantity 1/2^2 "m" > -8192 < 8192
+                        signed quantity 1/2^2 "m" >= -8192 < 8192
                 TTO "Transmission Time Offset"
                     element 32
                         signed quantity 2 "ns"
@@ -190,7 +190,7 @@ items
                         signed quantity 180/2^31 "°" >= -180 < 180
                 ALT "Altitude"
                     element 16
-                        signed quantity 1/2^2 "m" > -8192 < 8192
+                        signed quantity 1/2^2 "m" >= -8192 < 8192
         remark
             NOTE - Regarding the Receiver Identification
                 a. The Rx ID shall be used in a unique way for a specific
