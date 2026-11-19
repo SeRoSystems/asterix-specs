@@ -309,7 +309,7 @@ items
         group
             RHO ""
                 element 16
-                    unsigned quantity 1/2^8 "NM" < 256
+                    unsigned quantity 1/2^8 "NM" <= 256
             THETA ""
                 element 16
                     unsigned quantity 360/2^16 "°"
