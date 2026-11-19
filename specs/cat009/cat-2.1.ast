@@ -45,7 +45,7 @@ items
                         1: System Coordinates
             I "Intensity Level"
                 element 3
-                    unsigned integer
+                    unsigned integer >= 0 <= 7
             S "Shading Orientation with Respect to North"
                 element 3
                     table
@@ -68,13 +68,13 @@ items
             group
                 X "X-coordinate"
                     element 16
-                        signed integer
+                        signed integer >= -32768 < 32768
                     remark
                         Adjust with scaling factor :math:`2^{-6+F}` from 'I009/080/F'
                         Range: :math:`-2^{9+F} =< X < 2^{9+F}` NM.
                 Y "Y-coordinate"
                     element 16
-                        signed integer
+                        signed integer >= -32768 < 32768
                     remark
                         Adjust with scaling factor :math:`2^{-6+F}` from 'I009/080/F'
                         Range: :math:`-2^{9+F} =< Y < 2^{9+F}` NM.
@@ -93,7 +93,7 @@ items
         extended
             SN "Step Number"
                 element 6
-                    unsigned integer
+                    unsigned integer >= 0 <= 63
             spare 1
             -
 
