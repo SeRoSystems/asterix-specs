@@ -1001,10 +1001,10 @@ items
                     signed quantity 1 "dBm"
             RPD "Subfield #6: Difference in Range Between PSR and SSR Plot"
                 element 8
-                    signed quantity 1/2^8 "NM"
+                    signed quantity 1/2^8 "NM" >= -128/2^8 <= 128/2^8
             APD "Subfield #7: Difference in Azimuth Between PSR and SSR Plot"
                 element 8
-                    signed quantity 360/2^14 "°"
+                    signed quantity 360/2^14 "°" >= -360/2^7 <= 360/2^7
         remark
             Notes:
 
@@ -1444,10 +1444,10 @@ items
         group
             RS "Rho-Start"
                 element 16
-                    unsigned quantity 1/2^8 "NM" < 256
+                    unsigned quantity 1/2^8 "NM" <= 256
             RE "Rho-End"
                 element 16
-                    unsigned quantity 1/2^8 "NM" < 256
+                    unsigned quantity 1/2^8 "NM" <= 256
             TS "Theta-Start"
                 element 16
                     unsigned quantity 360/2^16 "°"
