@@ -1327,7 +1327,7 @@ items
                         description
                             Standard Deviation of Elevation Rate
                         element 16
-                            unsigned quantity 45/2^16 "°/s"
+                            unsigned quantity 45/2^16 "°/s" <= 45
                     COELREL ""
                         description
                             Correlation of Elevation Rate and Elevation,
