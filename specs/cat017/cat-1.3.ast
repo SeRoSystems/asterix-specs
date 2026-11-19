@@ -137,7 +137,7 @@ items
             Absolute time stamping expressed as Coordinated Universal Time
             (UTC) time.
         element 24
-            unsigned quantity 1/2^7 "s" < 86400
+            unsigned quantity 1/2^7 "s" >= 0 < 86400
         remark
             NOTE:
                 - The time of day is reset to zero each day at midnight
