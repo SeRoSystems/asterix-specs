@@ -559,7 +559,7 @@ items
             Minimum height from a plane tangent to the earth’s ellipsoid, defined
             by WGS-84, in two’s complement form.
         element 16
-            signed quantity 25/2^2 "ft" >= -1500 <= 150000
+            signed quantity 25/2^2 "ft" >= -1500
         remark
             Note:
                 1. LSB is required to be less than 10 ft by ICAO.
