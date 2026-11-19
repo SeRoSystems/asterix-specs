@@ -793,16 +793,16 @@ items
         group
             SIGX "Sigma (X)) Standard Deviation on the Horizontal Axis of the Local Grid System"
                 element 8
-                    unsigned quantity 1/2^7 "NM"
+                    unsigned quantity 1/2^7 "NM" >= 0 < 2
             SIGY "Sigma (Y)) Standard Deviation on the Vertical Axis of the Local Grid System"
                 element 8
-                    unsigned quantity 1/2^7 "NM"
+                    unsigned quantity 1/2^7 "NM" >= 0 < 2
             SIGV "Sigma (V)) Standard Deviation on the Groundspeed Within the Local Grid System"
                 element 8
-                    unsigned quantity 1/2^14 "NM/s"
+                    unsigned quantity 1/2^14 "NM/s" >= 0 < 256/2^14
             SIGH "Sigma (H)) Standard Deviation on the Heading Within the Local Grid System"
                 element 8
-                    unsigned quantity 360/2^12 "°"
+                    unsigned quantity 360/2^12 "°" >= 0 < 360/2^4
         remark
             Notes:
 
