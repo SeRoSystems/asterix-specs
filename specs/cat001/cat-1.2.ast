@@ -464,7 +464,7 @@ items
         definition
             Radial component of the ground speed as measured by means of Doppler filter banks in radar signal processors.
         element 8
-            signed quantity 1/2^8 "NM/s"
+            signed quantity 1/2^8 "NM/s" >= -128/2^8 <= 128/2^8
         remark
             Notes:
                 1. LSB is calculated as :math:`2^{-14+f}` with fixed `f=6`.
