@@ -288,11 +288,14 @@ items
                         1: Aircraft is on the ground
             CQF "Aircraft CQF"
                 element 7
-                    table
-                        0: The CQF calculation method is not supported
-                        1: The CQF is minimum
-                        126: The CQF is maximum
-                        127: The CQF is undefined according to the calculation method
+                    unsigned integer
+                remark
+                    Coverage Quality Factor of the aircraft for a given interrogator.
+                    1 is the minimum CQF, 126 the maximum CQF.
+                    Special values:
+
+                    - 0: The CQF calculation method is not supported
+                    - 127: The CQF is undefined according to the calculation method
 
     013 "Aircraft CQF Calculation Method"
         definition
