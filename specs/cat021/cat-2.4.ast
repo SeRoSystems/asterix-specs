@@ -85,7 +85,7 @@ items
         definition
             Identification of services offered by a ground station (identified by a SIC code).
         element 8
-            unsigned quantity 1/2 "s"
+            unsigned quantity 1/2 "s" >= 0 <= 255/2
         remark
             Notes:
 
