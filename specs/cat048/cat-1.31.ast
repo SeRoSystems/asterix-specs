@@ -769,7 +769,7 @@ items
         definition
             Absolute time stamping expressed as Co-ordinated Universal Time (UTC).
         element 24
-            unsigned quantity 1/2^7 "s" < 86400
+            unsigned quantity 1/2^7 "s" >= 0 <= 86400
         remark
             Notes:
 
