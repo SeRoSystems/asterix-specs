@@ -350,7 +350,7 @@ items
             spare 1
             PR "Mode S Packet Internal Priority"
                 element 5
-                    unsigned integer
+                    unsigned integer >= 0 <= 31
             PT "Packet Type"
                 element 2
                     table
@@ -387,10 +387,10 @@ items
         group
             PRIORITY "Priority"
                 element 4
-                    unsigned integer
+                    unsigned integer >= 0 <= 15
             POWER "Power"
                 element 4
-                    unsigned integer
+                    unsigned integer >= 0 <= 15
             DURATION "Duration"
                 element 8
                     unsigned quantity 1 "s"
@@ -461,7 +461,7 @@ items
         group
             PRIORITY "GICB Priority"
                 element 5
-                    unsigned integer
+                    unsigned integer >= 0 <= 31
             spare 3
             PC "Periodicity Constraint"
                 element 1
