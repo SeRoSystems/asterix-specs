@@ -80,7 +80,7 @@ items
                         Range: :math:`-2^{9+F} =< Y < 2^{9+F}` NM.
                 L "Vector Length"
                     element 16
-                        unsigned integer
+                        unsigned integer <= 32768
                     remark
                         Adjust with scaling factor :math:`2^{-6+F}` from 'I009/080/F'
                         Max. range = :math:`2^{9+f}` NM.
